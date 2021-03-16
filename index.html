@@ -12,6 +12,12 @@
   <main>
     <h1>Vanilla JavaScript App</h1>
   </main>
+  <p>Message from api: <b id="name">...</b></p>
 </body>
-
+<script>
+  (async function() {
+    let { text } = await( await fetch(`/api/GetMessage?name=jesper`)).json();
+    document.querySelector('#name').textContent = text;
+  } ())
+</script>
 </html>
