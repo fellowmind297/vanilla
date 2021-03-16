@@ -7,7 +7,7 @@
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
     "liveServer.settings.proxy": {
-        "enable": false,
+        "enable": true,
         "baseUri": "/api",
         "proxyUri": "http://localhost:7071/api"
     }
