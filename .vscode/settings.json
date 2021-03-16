@@ -5,5 +5,10 @@
     "azureFunctions.deploySubpath": ".",
     "azureFunctions.projectLanguage": "PowerShell",
     "azureFunctions.projectRuntime": "~3",
-    "debug.internalConsoleOptions": "neverOpen"
+    "debug.internalConsoleOptions": "neverOpen",
+    "liveServer.settings.proxy": {
+        "enable": false,
+        "baseUri": "/api",
+        "proxyUri": "http://localhost:7071/api"
+    }
 }
