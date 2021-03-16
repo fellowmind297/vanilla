@@ -2,7 +2,7 @@
     "staticWebApps.appSubpath": "/",
     "staticWebApps.apiSubpath": "api",
     "staticWebApps.outputSubpath": "build",
-    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.deploySubpath": "functions",
     "azureFunctions.projectLanguage": "PowerShell",
     "azureFunctions.projectRuntime": "~3",
     "debug.internalConsoleOptions": "neverOpen",
